@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Panel Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <h1>Transforma tu hogar con energía solar</h1>
+        <p>¡Ahorra hasta un 80% en tu factura eléctrica!</p>
+        <a href="#form-section" class="cta-button">Solicita tu cotización</a>
+    </header>
+    
+    <section class="benefits-section">
+        <h2>¿Por qué elegir energía solar?</h2>
+        <ul>
+            <li>Reduce tu factura eléctrica hasta en un 80%.</li>
+            <li>Contribuye al cuidado del medio ambiente.</li>
+            <li>Aumenta el valor de tu propiedad.</li>
+            <li>Accede a incentivos y financiamientos especiales.</li>
+        </ul>
+    </section>
+    
+    <section id="form-section" class="form-section">
+        <h2>Solicita tu cotización ahora</h2>
+        <form action="submit_form.php" method="post" enctype="multipart/form-data">
+            <label for="name">Nombre completo:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Número de teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label for="bill">Sube tu factura de luz:</label>
+            <input type="file" id="bill" name="bill" accept=".jpg, .png, .pdf" required>
+            
+            <button type="submit">Enviar solicitud</button>
+        </form>
+    </section>
+    
+    <section class="testimonials-section">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial">
+            <p>“Instalar paneles solares fue la mejor decisión para mi hogar. ¡Mis facturas se redujeron un 70%!”</p>
+            <span>– Juan Pérez</span>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>© 2024 [Nombre de la empresa]. Todos los derechos reservados.</p>
+        <p>Contacto: tuemail@empresa.com | Tel: xxx-xxx-xxxx</p>
+    </footer>
+</body>
+</html>
