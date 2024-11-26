@@ -1,6 +1,6 @@
 <?php
 // Configuración del correo
-$to = "tu_correo@ejemplo.com"; // Reemplaza con tu correo
+$to = "juliodobe@eicloud.com"; // Reemplaza con tu correo
 $subject = "Nueva Solicitud de Cotización";
 $headers = "From: no-reply@tu-dominio.com\r\n";
 
